@@ -129,7 +129,7 @@ if __name__ == "__main__":
     config['PM_AUTO_BAN'] = "False"
     config['PM_AUTO_BAN_LIMIT'] = "4"
     config['ALIVE_LOGO'] = "https://telegra.ph/file/6ccff2ffa92bd42ede3fe.jpg"
-    config['ALIVE_NAME'] = "{DEFAULTUSER}"
+    config['ALIVE_NAME'] = ".set var ALIVE_NAME <istifadəçi adınızı yazın>"
     config['TMP_DOWNLOAD_DIRECTORY'] = "./downloads/"
     config['TZ'] = TZ
     config['TZ_NUMBER'] = "1"
