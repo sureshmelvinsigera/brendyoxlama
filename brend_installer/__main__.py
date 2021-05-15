@@ -128,7 +128,7 @@ if __name__ == "__main__":
     config['LOGSPAMMER'] = "False"
     config['PM_AUTO_BAN'] = "False"
     config['PM_AUTO_BAN_LIMIT'] = "4"
-    config['ALIVE_LOGO'] = "https://telegra.ph/LLogo-05-15"
+    config['ALIVE_LOGO'] = "https://telegra.ph/file/6ccff2ffa92bd42ede3fe.jpg"
     config['ALIVE_NAME'] = "{DEFAULTUSER}"
     config['TMP_DOWNLOAD_DIRECTORY'] = "./downloads/"
     config['TZ'] = TZ
