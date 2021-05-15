@@ -128,6 +128,8 @@ if __name__ == "__main__":
     config['LOGSPAMMER'] = "False"
     config['PM_AUTO_BAN'] = "False"
     config['PM_AUTO_BAN_LIMIT'] = "4"
+    config['ALIVE_LOGO'] = "https://telegra.ph/LLogo-05-15"
+    config['ALIVE_NAME'] = "{DEFAULTUSER}"
     config['TMP_DOWNLOAD_DIRECTORY'] = "./downloads/"
     config['TZ'] = TZ
     config['TZ_NUMBER'] = "1"
