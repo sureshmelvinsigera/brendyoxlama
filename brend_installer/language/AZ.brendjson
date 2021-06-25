@@ -15,7 +15,7 @@
             "SUCCESS_APP": "(✓) Tətbiq uğurla yaradıldı!",
             "DOWNLOADING": "(i) BrendUserBot yüklənir...",
             "DOWNLOADED": "(✓) BrendUserBot yüklənməsi uğurla başa çatdı!",
-            "DEPLOYING": "(i) Deploy proseduru başlayır... (Bu prosedur çox vaxt apara bilər)",
+            "DEPLOYING": "(i) Deploy proseduru başlayır... (Bu prosedur təxminən 5 dəqiqə çəkir)",
             "WRITING_CONFIG": "(i) Məlumatlar yazılır...",
             "SET_LANG": "(✓) Botunuz artıq {} dilindədir!",
             "SUCCESS_CONFIG": "(✓) Məlumatlar yazıldı!",
@@ -28,7 +28,7 @@
             "ERROR": "Bir xəta baş verdi! Xəta:",
             "POSTGRE": "(i) PostgreSQL yüklənir...",
             "SUCCESS_POSTGRE": "(✓) PostgreSql Yükləndi!",
-            "AUTO_BOTLOG": "Bu qrup avtomatik olaraq quraşdırılma zamanı @BrendUserBot ilə yaradılmışdır.",
+            "AUTO_BOTLOG": "Bu qrup avtomatik olaraq quraşdırılma zamanı @BrendUserBot ilə yaradılmışdır. Userbotun Hesabat qrupudur",
             "DONT_LEAVE": "**XAHİŞ EDİRİK BU QRUPDAN ÇIXMAYIN!**",
             "AFTER_INSTALL": "Quraşdırılma sonrası prosedurunu başlatmaq istəyirsiniz?",
             "BOTLOG": "BotLog Qrupu Yaradın",
@@ -48,7 +48,7 @@
             "CONNECTING": "(i) Telegram Serverlərinə Qoşulur...",
             "RETRYING": "(!) Əlaqə yaradılarkən bir səhv baş verdi. Yenidən cəhd edilir...",
             "PHONE_NUMBER": "(?) Telefon Nömrəniz (Məsələn: +994xxxxxxxxx): ",
-            "INVALID_NUMBER": "(!) Səhf Bir Nömrə Yazmısınız Zəhmət olmasa Nümunədə Göstərilən Kimi Yazın. Nümunə:+994xxxxxxxxx",
+            "INVALID_NUMBER": "(!) Yanlış Nömrə Daxil etdiniz Zəhmət olmasa Nümunədə Göstərildiyi Kimi Nömrəni Daxil Edin. Nümunə:+994xxxxxxxxx",
             "CODE": "(?) Telegram-dan Gələn Kodu Yazın:",
             "INVALID_CODE": "(!) Kodu Səhf Yazdınız. Xahiş edirik yenidən cəhd edin. [Bir Neçə Dəfə Səhf Yazdıqdan Sonra Bloklana Bilərsiniz]",
             "2FA": "(i) İki addımlı yoxlama aşkar edilmişdir.",
@@ -71,8 +71,8 @@
             "STRING_GET": "(i) String nəticəsi alınır...",
             "SCRAPING": "(i) Artıq bir tətbiq yaratmısınız. API ID / HASH Məlumatları Çəkilir...",
             "ERROR": "(!) Bir xəta baş verdi.",
-            "NEW": "Yeni",
-            "OLD": "Köhnə"
+            "NEW": "Fake Hesablar üçün",
+            "OLD": "Orginal Hesablar üçün (rahat qurulum)"
         }
     }
 }
