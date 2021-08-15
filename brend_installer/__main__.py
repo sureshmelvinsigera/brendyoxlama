@@ -100,7 +100,7 @@ if __name__ == "__main__":
     #Əkənin varyoxunu sikim peyser ble
     #Peyserler:
     #1) Fərid - https://github.com/FaridDadashzade/Installer/blob/1ed448a46d35f4bea4af87ee3b6ba6d684a3e990/cyber_installer/__main__.py#L107
-    #2) F16 - https://github.com/TheOksigen/neoninstaller/blob/c0fa98a52de57ffbb99ad6d320cd63d186347998/neon_installer/__main__.py#L105
+    #2) F16 
     if os.path.isdir("./brenduserbot/"):
         rm_r("./brenduserbot/")
     repo = eval('Repo.clone_from("https://github.com/brendsupport/brenduserbot", "./brenduserbot/", branch="master")')
