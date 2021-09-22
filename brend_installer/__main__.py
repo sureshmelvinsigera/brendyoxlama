@@ -110,10 +110,15 @@ if __name__ == "__main__":
 
     onemli(LANG['WRITING_CONFIG'])
 
+    bottokeni = str(soru(".brend Əmrinin işləməsi üçün @Botfather dən bot yaradıb bot tokenini bura yazın"))
+    botadi = str(soru("Yaratdığınız botun istifadəçi adını DÜZGÜN və '@' işarəsi qoymadan yazın. Nümunə: BrendMusicRobot"))
+
     config['ANTI_SPAMBOT'] = 'False'
     config['ANTI_SPAMBOT_SHOUT'] = 'False'
     config['API_HASH'] = ahash
     config['API_KEY'] = str(aid)
+    config['BOT_TOKEN'] = bottokeni
+    config['BOT_USERNAME'] = botadi
     config['BOTLOG'] = "False"
     config['BOTLOG_CHATID'] = "0"
     config['CLEAN_WELCOME'] = "True"
@@ -131,7 +136,6 @@ if __name__ == "__main__":
     config['PM_AUTO_BAN'] = "False"
     config['PM_AUTO_BAN_LIMIT'] = "4"
     config['ALIVE_LOGO'] = "https://telegra.ph/file/d61b9172fc143fdfc86a2.gif"
-    config['ALIVE_NAME'] = ".set var ALIVE_NAME <istifadəçi adınızı yazın>"
     config['TMP_DOWNLOAD_DIRECTORY'] = "./downloads/"
     config['TZ'] = TZ
     config['TZ_NUMBER'] = "1"
